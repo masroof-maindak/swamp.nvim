@@ -1,0 +1,14 @@
+[global]
+font = CozetteVector 13
+progress_bar = true
+sort = yes
+alignment = center
+scale = 2
+frame_color = "#ec9f0d"
+frame_width = 2
+separator_color= frame
+background = "#272316"
+foreground = "#ebe0bb"
+
+[urgency_critical]
+frame_color = "#b33951"

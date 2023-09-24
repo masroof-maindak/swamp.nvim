@@ -1,0 +1,61 @@
+@use 'sass:color';
+@use '../colors';
+@use '../config';
+
+window.thunar {
+  background: none;
+
+  treeview {
+    background: none;
+  }
+
+  grid {
+    *:selected,
+    *:active {
+      background: colors.$surface-weak;
+      border-radius: 3px;
+    }
+  }
+
+  .sidebar {
+    background-color: rgba(40, 40, 40, 0.2);
+    box-shadow: inset -20px 20px 15px -25px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+
+  treeview {
+    padding: 3px;
+    &:selected {
+      background: colors.$accent-primary;
+    }
+  }
+
+  .frame {
+    border: 0;
+  }
+
+  toolbar {
+    box {
+      padding: 5px;
+    }
+  }
+
+  paned grid {
+    background: colors.$surface-strong;
+  }
+
+  toolbar {
+    background: colors.$surface-dark;
+    padding: 5px 0;
+  }
+  toolbar * {
+    background: none;
+  }
+
+  /* hide separator */
+  separator {
+    background-image: image(rgba(255, 255, 255, 0));
+    background-size: 1px 1px;
+    background-position: center center;
+  }
+}

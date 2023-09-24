@@ -1,0 +1,13 @@
+@use '../colors';
+.pavucontrol-window {
+  background: colors.$surface-strong;
+  tabs {
+    background: colors.$surface-dark;
+    tab {
+      padding: 16px;
+    }
+  }
+  .show-volume-meters-check-button {
+    padding: 8px;
+  }
+}

@@ -1,0 +1,58 @@
+@use 'sass:color';
+@use '../colors';
+@use '../config';
+
+entry {
+  padding: calc(config.$spacing-medium - config.$border-size);
+  border-radius: config.$radius;
+  //border: config.$border-size solid colors.$white-weakest;
+  //box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  background: colors.$white-weakest;
+  //background: rgba(0, 0, 0, 0.04);
+  //background: rgba(255, 255, 255, 0.02);
+  //background-clip: padding-box;
+
+  &:focus {
+    border-color: color.change(colors.$accent-primary, $alpha: config.$tint-strong);
+  }
+
+  &:disabled {
+    opacity: config.$disabled-opacity;
+  }
+
+  image {
+    &.left {
+      margin-right: config.$spacing-medium;
+    }
+    &.right {
+      margin-left: config.$spacing-medium;
+    }
+  }
+
+  selection {
+    color: colors.$white-strong;
+    background: color.change(colors.$accent-primary, $alpha: config.$tint-medium);
+  }
+
+  .linked.horizontal & {
+    &:not(:first-child) {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    &:not(:last-child) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  .linked.vertical & {
+    &:not(:first-child) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:not(:last-child) {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+}

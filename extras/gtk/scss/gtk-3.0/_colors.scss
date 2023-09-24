@@ -1,0 +1,42 @@
+@use 'sass:color';
+
+$surface-dark: #211D13;
+$surface-strongest: #272316;
+$surface-strong: color.scale($surface-strongest, $lightness: 0%);;
+$surface-moderate: color.scale($surface-strongest, $lightness: +5%);
+$surface-weak: color.scale($surface-strongest, $lightness: +7.5%);//#3A3124;
+$surface-weakest: color.scale($surface-strongest, $lightness: +10%);
+
+$white-moderate: rgba(255, 255, 255, 0.34);
+$white-weak: rgba(255, 255, 255, 0.14);
+$white-weakest: rgba(255, 255, 255, 0.06);
+$white-strongest: #F1E9D0;
+$white-strong: #ebe0bb;
+
+$black-strongest: rgba(0, 0, 0, 1);
+$black-strong: rgba(0, 0, 0, 0.87);
+$black-moderate: rgba(0, 0, 0, 0.42);
+$black-weak: rgba(0, 0, 0, 0.15);
+$black-weakest: rgba(0, 0, 0, 0.06);
+
+$red-normal: #b33951;
+$red-light: #cc005c;
+$orange-normal: #F87C2A;
+$orange-light: #F9883D;
+$yellow-normal: #ec9f0d;
+$yellow-light: #fbb323;
+$green-normal: #c1c544;
+$green-light: #acbb4f;
+$cyan-normal: #65f69c;
+$cyan-light: #8bf8b5;
+$blue-normal: #48b8d0;
+$blue-light: #7dccde;
+$purple-normal: #f76f8e;
+$purple-light: #bc4e78;
+$pink-normal: #e16286;
+$pink-light: #f3869b;
+
+$accent-primary: $yellow-normal;
+$accent-secondary: $red-normal;
+
+@define-color borders #{"" +$surface-strong};

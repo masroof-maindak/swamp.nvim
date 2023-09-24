@@ -1,0 +1,13 @@
+@use 'sass:color';
+@use '../colors';
+
+frame > border, .frame {
+  border: 1px solid color.change(colors.$surface-moderate, $alpha: 0.5%);
+  //box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+scrolledwindow {
+  viewport.frame {
+    border-style: none;
+  }
+}
