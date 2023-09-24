@@ -4,13 +4,13 @@ A dark, Gruvbox-inspired colour scheme for Neovim.
 ## Images
 
 ### GTK
-![Alt text](Gallery/gtk.png)
+![gtk](Gallery/gtk.png)
 
 ### Music
-![Alt text](Gallery/spotify.png)
+![music](Gallery/music.png)
 
 ### Discord
-![Alt text](Gallery/discord.png)
+![discord](Gallery/discord.png)
 
 
 ## Credits
