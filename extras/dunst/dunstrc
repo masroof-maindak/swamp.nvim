@@ -1,5 +1,5 @@
 [global]
-font = CozetteVector 13
+font = CozetteHiDpi 10
 progress_bar = true
 sort = yes
 alignment = center
