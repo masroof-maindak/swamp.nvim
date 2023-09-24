@@ -1,0 +1,299 @@
+/*  
+    Discord Gruvbox (c) Joinemm#7184 2020-2021
+    https://github.com/joinemm/discord-css
+    
+    Tweaked by MujtabaAsim for channel icons, custom font, and folder background
+*/
+
+/* define colors */
+:root {
+    --background-primary: #272316;
+    --background-secondary: #3A3124;
+    --background-secondary-alt: #3A3124;
+    --channeltextarea-background: #3A3124;
+    --background-floating: #3A3124;
+    --scrollbar-auto-track: #3A3124;
+    --background-tertiary: #4D3F32;
+    --background-accent: #5F4E41;
+    --text-normal: #F1E9D0;
+    --text-muted: #9F8875;
+    --channels-default: #9F8875;
+    --channel-icon: #9F8875;
+    --interactive-normal: #D2C3A4;
+    --interactive-hover: #F1E9D0;
+    --interactive-active: #ebe0bb;
+    --interactive-muted: #5F4E41;
+    --header-primary: #F1E9D0;
+    --header-secondary: #ebe0bb;
+    --scrollbar-auto-thumb: #1d2021;
+    --text-link: #48b8d0;
+    --selection: #856a5d80; 
+}
+
+
+* {
+font-family: CozetteVector !important
+}
+
+[class*="folderIconWrapper-"] { background-color: #272316 !important} 
+
+/* main backgrounds */
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
+.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
+.theme-dark .da-messageGroupWrapper,
+.theme-dark .bodyInner-245q0L,
+.theme-dark .bottomDivider-1K9Gao,
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .root-1gCeng,
+.tabBody-3YRQ8W,
+.theme-dark .container-1D34oG
+.theme-dark .uploadModal-2ifh8j,
+.theme-dark .modal-yWgWj-,
+.uploadModal-2ifh8j,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.theme-dark .selected-1Tbx07,
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: var(--background-primary) !important;
+}
+
+.da-popouts .da-container,
+.da-friendsTableHeader,
+.da-friendsTable,
+.da-autocomplete,
+.da-themedPopout,
+.da-footer,
+.da-userPopout>*,
+.da-autocompleteHeaderBackground,
+.theme-dark .bar-2Qqk5Z,
+.theme-dark .payment-xT17Mq,
+.theme-dark .paymentPane-3bwJ6A,
+.theme-dark .paginator-166-09,
+.theme-dark .codeRedemptionRedirect-1wVR4b,
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-dark .footer-3mqk7D,
+.theme-dark .footer-2gL1pp,
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-dark .inset-3sAvek,
+.theme-dark .quickMessage-1yeL4E,
+.wrapper-2aW0bm,
+.theme-dark .autocomplete-1vrmpx,
+.searchBar-3dMhjb,
+.theme-dark .body-3iLsc4,
+.theme-dark .footer-2gL1pp,
+.theme-dark .footer-1fjuF6,
+.cardPrimary-1Hv-to,
+.theme-dark .card-FDVird:before,
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background-color: var(--background-secondary);
+}
+
+/* scrollbars */
+.da-messagesWrapper .da-scroller::-webkit-scrollbar,
+.da-messagesWrapper .da-scroller::-webkit-scrollbar-track-piece {
+    background-color: var(--background-tertiary) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.da-scrollerThemed .da-scroller::-webkit-scrollbar-thumb,
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-tertiary) !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: var(--background-primary) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark .selectorSelected-1_M1WV,
+.newMessagesBar-mujexs,
+.theme-dark .searchAnswer-3Dz2-q,
+.theme-dark .searchFilter-2ESiM3,
+.theme-dark .progress-1IcQ3A,
+.themeDefault-24hCdX,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--background-accent);
+}
+
+.theme-dark .container-3ayLPN {
+    background-color: var(--background-tertiary);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: var(--background-floating);
+}
+
+.theme-dark .pageIndicator-1gAbyA,
+.theme-dark .pageButtonNext-V2kUq0,
+.theme-dark .pageButtonPrev-1Y-47D {
+    border-color: var(--background-accent);
+}
+
+.scroller-2FKFPG::-webkit-scrollbar,
+.barButtonBase-3UKlW2,
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* remove gradients */
+.theme-dark .da-option:after, .theme-dark .option-96V44q:after {
+    background-image: none !important;
+}
+
+/* search text */
+.theme-dark .searchOption-zQ-1l6 .answer-1n6g43,
+.theme-dark .option-96V44q .filter-3Y_im- {
+    color: var(--text-muted)
+}
+
+.theme-dark .searchOption-zQ-1l6 .filter-3Y_im- {
+    color: var(--text-normal)
+}
+
+/* side panel bottom section border */
+.panels-j1Uci_ {
+    border-top: 2px solid var(--background-modifier-accent);
+}
+
+.container-1giJp5 {
+    border-width: 2px;
+}
+
+/* selected text */
+::selection {
+    background: var(--selection);
+}
+
+/* hide that stupid nitro gift button */
+.button-38aScr[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* hide blocked messages */
+[class="groupStart-23k01U"] {
+	display: none;
+}
+
+/* enhanceddiscord server count text */
+.theme-dark .keybind-KpFkfr {
+    color: var(--channels-default)
+}
+
+/* unloaded emojis */
+.theme-dark .imageLoading-bpSr0M {
+    background-image: none;
+    background: var(--background-primary);
+    border-radius: 50%;
+}
+
+.sprite-2iCowe {
+	filter: none !important;
+}
+
+/* Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox) */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #272316;
+}
+
+.hljs,
+.hljs-subst {
+  color: #ebe0bb;
+}
+
+/* Gruvbox Red */
+.hljs-deletion,
+.hljs-formula,
+.hljs-keyword,
+.hljs-link,
+.hljs-selector-tag {
+  color: #cc005c;
+}
+
+/* Gruvbox Blue */
+.hljs-built_in,
+.hljs-emphasis,
+.hljs-name,
+.hljs-quote,
+.hljs-strong,
+.hljs-title,
+.hljs-variable {
+  color: #7dccde;
+}
+
+/* Gruvbox Yellow */
+.hljs-attr,
+.hljs-params,
+.hljs-template-tag,
+.hljs-type {
+  color: #fbb323;
+}
+
+/* Gruvbox Purple */
+.hljs-builtin-name,
+.hljs-doctag,
+.hljs-literal,
+.hljs-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.hljs-code,
+.hljs-meta,
+.hljs-regexp,
+.hljs-selector-id,
+.hljs-template-variable {
+  color: #F9883D;
+}
+
+/* Gruvbox Green */
+.hljs-addition,
+.hljs-meta-string,
+.hljs-section,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-string,
+.hljs-symbol {
+  color: #acbb4f;
+}
+
+/* Gruvbox Aqua */
+.hljs-attribute,
+.hljs-bullet,
+.hljs-class,
+.hljs-function,
+.hljs-function .hljs-keyword,
+.hljs-meta-keyword,
+.hljs-selector-pseudo,
+.hljs-tag {
+  color: #8bf8b5;
+}
+
+/* Gruvbox Gray */
+.hljs-comment {
+  color: #856a5d;
+}
+
+/* Gruvbox Purple */
+.hljs-link_label,
+.hljs-literal,
+.hljs-number {
+  color: #bc4e78;
+}
+
+.hljs-comment,
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-section,
+.hljs-strong,
+.hljs-tag {
+  font-weight: bold;
+}
