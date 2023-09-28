@@ -4,10 +4,10 @@ A dark, Gruvbox-inspired colour scheme for Neovim. Currently only exists as a ba
 ## Images
 
 #### Neovim
-![nvim](Gallery/nvim.png)
+![nvim](Gallery/neovim.png)
 
 #### Music
-![music](Gallery/spotify.png)
+![music](Gallery/chill.png)
 
 #### DuckDuckGo + Zathura
 ![other](Gallery/other.png)
