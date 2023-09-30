@@ -1,19 +1,21 @@
-# swamp.nvim
+# SWAMP.NVIM
+<p align="center">
+    <img src="Gallery/colours.png" width=50%/>
+</p>
+
 A dark, Gruvbox-inspired colour scheme for Neovim. Currently only exists as a base46 theme for NvChad.
 
-## Images
-
-#### Neovim
 ![nvim](Gallery/neovim.png)
+<br>
 
-#### Music
-![music](Gallery/chill.png)
+![music](Gallery/pool.png)
+<br>
 
-#### DuckDuckGo + Zathura
-![other](Gallery/other.png)
+![ddg/zathura](Gallery/other.png)
+<br>
 
-#### Discord
-![discord](Gallery/discord.png)
+![gtk](Gallery/gtk.png)
+<br>
 
 ## Credits
 - [Gruvbox](https://github.com/morhetz/gruvbox), obviously.

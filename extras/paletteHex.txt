@@ -1,0 +1,20 @@
+#211d13   #9F8875
+#272316   #B8A58C
+#3A3124   #D2C3A4
+#4D3F32   #ebe0bb
+#5F4E41   #f1e9d0
+#725C4F
+#856a5d
+
+#F87C2A   #ec9f0d
+#F9883D   #fbb323   SWAMP    
+
+#48b8d0
+#7dccde
+
+#c1c544   #65f69c
+#acbb4f   #8bf8b5
+
+#f76f8e   #b33951
+#bc4e78   #cc005c
+
