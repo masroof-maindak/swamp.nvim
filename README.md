@@ -1,10 +1,11 @@
-# SWAMP.NVIM
 <p align="center">
-    <img src="Gallery/colours.png" width=50%/>
+    <img src="Gallery/colours.png"/>
+    <br>
+    A dark, Gruvbox-inspired colour scheme for Neovim.<br>
+    Currently only exists as a base46 theme for NvChad.
 </p>
 
-A dark, Gruvbox-inspired colour scheme for Neovim. Currently only exists as a base46 theme for NvChad.
-
+## Gallery
 ![nvim](Gallery/neovim.png)
 <br>
 
