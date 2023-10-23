@@ -1,26 +1,26 @@
-*background: #272316
+*background: #242015
 *foreground: #ebe0bb
 
-*color0:  #272316
+*color0:  #242015
 *color8:  #856A5D
 
-*color1:  #B33951
-*color9:  #CC005C
+*color1:  #96294d
+*color9:  #a82d56
 
-*color2:  #C1C544
-*color10: #acbb4f
+*color2:  #7a7653
+*color10: #736f4e
 
-*color3:  #EC9F05
-*color11: #FBB323
+*color3:  #db930d
+*color11: #e69a0e
 
-*color4:  #48B8D0
-*color12: #7DCCDE
+*color4:  #91506c
+*color12: #80465f
 
-*color5:  #F76F8E
-*color13: #BC4E78
+*color5:  #C1666B
+*color13: #b05d61
 
-*color6:  #65F69C
-*color14: #8BF8B5
+*color6:  #508991
+*color14: #61A0A8
 
-*color7:  #665E52
+*color7:  #9F8875
 *color15: #ebe0bb

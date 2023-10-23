@@ -1,22 +1,11 @@
 <p align="center">
-    <img src="Gallery/colours.png"/>
+    <img src=""/>
     <br>
     A dark, Gruvbox-inspired colour scheme for Neovim.<br>
-    Currently only exists as a base46 theme for NvChad.
 </p>
 
 ## Gallery
-![nvim](Gallery/neovim.png)
-<br>
 
-![music](Gallery/pool.png)
-<br>
-
-![ddg/zathura](Gallery/other.png)
-<br>
-
-![gtk](Gallery/gtk.png)
-<br>
 
 ## Credits
 - [Gruvbox](https://github.com/morhetz/gruvbox), obviously.

@@ -1,41 +1,63 @@
 /*  
-    Discord Gruvbox (c) Joinemm#7184 2020-2021
-    https://github.com/joinemm/discord-css
-    
-    Tweaked by MujtabaAsim for channel icons, custom font, and folder background
+  Discord Gruvbox (c) Joinemm#7184 2020-2021
+  https://github.com/joinemm/discord-css
+  
+  Tweaked by MujtabaAsim for channel icons, custom font, and folder background
 */
+
+path {
+  fill: #9f8875;
+}
+path[d="M0 0h18v18H0"] {
+  display: none;
+}
+
+.buttons-uaqb-5 {
+  display: none;
+}
 
 /* define colors */
 :root {
-    --background-primary: #272316;
-    --background-secondary: #3A3124;
-    --background-secondary-alt: #3A3124;
-    --channeltextarea-background: #3A3124;
-    --background-floating: #3A3124;
-    --scrollbar-auto-track: #3A3124;
-    --background-tertiary: #4D3F32;
-    --background-accent: #5F4E41;
-    --text-normal: #F1E9D0;
-    --text-muted: #9F8875;
-    --channels-default: #9F8875;
-    --channel-icon: #9F8875;
-    --interactive-normal: #D2C3A4;
-    --interactive-hover: #F1E9D0;
-    --interactive-active: #ebe0bb;
-    --interactive-muted: #5F4E41;
-    --header-primary: #F1E9D0;
-    --header-secondary: #ebe0bb;
-    --scrollbar-auto-thumb: #1d2021;
-    --text-link: #48b8d0;
-    --selection: #856a5d80; 
+  --background-primary: #242015;
+  --background-secondary: #211d13;
+  --background-secondary-alt: #3a3124;
+  --channeltextarea-background: #3A3124;
+  --background-floating: #3A3124;
+  --scrollbar-auto-track: #3A3124;
+  --background-tertiary: #242015;
+  --background-accent: #5F4E41;
+  --channel-text-area-placeholder: #9f8875;
+  --background-modifier-selected: #3a3124;
+  --text-normal: #F1E9D0;
+  --text-muted: #9F8875;
+  --channels-default: #9F8875;
+  --channel-icon: #9F8875;
+  --interactive-normal: #D2C3A4;
+  --interactive-hover: #F1E9D0;
+  --interactive-active: #ebe0bb;
+  --interactive-muted: #5F4E41;
+  --header-primary: #F1E9D0;
+  --header-secondary: #ebe0bb;
+  --scrollbar-auto-thumb: #7a7653;
+  --text-link: #91506c;
+  --selection: #856a5d80; 
+
+
 }
 
+.theme-dark {
+  --search-popout-option-filter-text: #D2C3A4;
+  --search-popout-option-non-text-color: #211d13;
+  --search-popout-option-filter-color: #3a3124;
+}
 
 * {
 font-family: CozetteVector !important
 }
 
-[class*="folderIconWrapper-"] { background-color: #272316 !important} 
+
+
+[class*="folderIconWrapper-"] { background-color: #211d13 !important} 
 
 /* main backgrounds */
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
@@ -199,7 +221,7 @@ font-family: CozetteVector !important
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #272316;
+  background: #242015;
 }
 
 .hljs,
@@ -213,7 +235,7 @@ font-family: CozetteVector !important
 .hljs-keyword,
 .hljs-link,
 .hljs-selector-tag {
-  color: #cc005c;
+  color: #a82d56;
 }
 
 /* Gruvbox Blue */
@@ -224,7 +246,7 @@ font-family: CozetteVector !important
 .hljs-strong,
 .hljs-title,
 .hljs-variable {
-  color: #7dccde;
+  color: #80465f;
 }
 
 /* Gruvbox Yellow */
@@ -232,7 +254,7 @@ font-family: CozetteVector !important
 .hljs-params,
 .hljs-template-tag,
 .hljs-type {
-  color: #fbb323;
+  color: #db930d;
 }
 
 /* Gruvbox Purple */
@@ -240,7 +262,7 @@ font-family: CozetteVector !important
 .hljs-doctag,
 .hljs-literal,
 .hljs-number {
-  color: #8f3f71;
+  color: #c1666b;
 }
 
 /* Gruvbox Orange */
@@ -249,7 +271,7 @@ font-family: CozetteVector !important
 .hljs-regexp,
 .hljs-selector-id,
 .hljs-template-variable {
-  color: #F9883D;
+  color: #b06733;
 }
 
 /* Gruvbox Green */
@@ -260,7 +282,7 @@ font-family: CozetteVector !important
 .hljs-selector-class,
 .hljs-string,
 .hljs-symbol {
-  color: #acbb4f;
+  color: #7a7653;
 }
 
 /* Gruvbox Aqua */
@@ -272,7 +294,7 @@ font-family: CozetteVector !important
 .hljs-meta-keyword,
 .hljs-selector-pseudo,
 .hljs-tag {
-  color: #8bf8b5;
+  color: #508991;
 }
 
 /* Gruvbox Gray */
@@ -284,7 +306,7 @@ font-family: CozetteVector !important
 .hljs-link_label,
 .hljs-literal,
 .hljs-number {
-  color: #bc4e78;
+  color: #b05d61;
 }
 
 .hljs-comment,
