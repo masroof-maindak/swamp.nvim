@@ -11,7 +11,7 @@ std::string ReplaceHexCodes(const std::string &input) {
     // Define the replacements for Gruvbox Dark color scheme
     std::map<std::string, std::string> colorReplacements = {
         {"#1d2021", "#211d13"}, // DarkHard
-        {"#282828", "#272316"}, // Dark1 / BG
+        {"#282828", "#242015"}, // Dark1 / BG
         {"#3c3836", "#3A3124"}, // Dark2
         {"#504945", "#4D3F32"}, // Dark3 
         {"#665c54", "#5F4E41"}, // Dark4
@@ -24,26 +24,26 @@ std::string ReplaceHexCodes(const std::string &input) {
         {"#ebdbb2", "#ebe0bb"}, // Light2 / FG
         {"#fbf1c7", "#F1E9D0"}, // Light1
 
-        {"#d65d0e", "#F87C2A"}, // DarkOrange
-        {"#fe8019", "#F9883D"}, // Orange
+        {"#d65d0e", "#b06733"}, // DarkOrange
+        {"#fe8019", "#ba6d36"}, // Orange
 
-        {"#d79921", "#ec9f0d"}, // DarkYellow
-        {"#fabd2f", "#fbb323"}, // Yellow
+        {"#d79921", "#db930d"}, // DarkYellow
+        {"#fabd2f", "#e69a0e"}, // Yellow
 
-        {"#458588", "#48b8d0"}, // DarkBlue
-        {"#83a598", "#7dccde"}, // Blue
+        {"#458588", "#91506c"}, // DarkBlue
+        {"#83a598", "#80465f"}, // Blue
 
-        {"#98971a", "#c1c544"}, // DarkGreen
-        {"#b8bb26", "#acbb4f"}, // Green
+        {"#98971a", "#7a7653"}, // DarkGreen
+        {"#b8bb26", "#736f4e"}, // Green
 
-        {"#b16286", "#f76f8e"}, // DarkMagenta
-        {"#d3869b", "#bc4e78"}, // Magenta
+        {"#b16286", "#c1666b"}, // DarkMagenta
+        {"#d3869b", "#b05d61"}, // Magenta
 
-        {"#cc241d", "#b33951"}, // DarkRed
-        {"#fb4934", "#cc005c"}, // Red
+        {"#cc241d", "#96294d"}, // DarkRed
+        {"#fb4934", "#a82d56"}, // Red
 
-        {"#689d6a", "#65f69c"}, // DarkCyan
-        {"#8ec07c", "#8bf8b5"}, // Cyan
+        {"#689d6a", "#508991"}, // DarkCyan
+        {"#8ec07c", "#61a0a8"}, // Cyan
     };
 
     // Iterate through the map and replace hex codes
