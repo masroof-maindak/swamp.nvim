@@ -7,10 +7,9 @@
 
 ## Gallery
 
+![rofi] (gallery/forest.png)
 ![berry](gallery/berrywm.png)
 ![GTK](gallery/GTK.png)
-![zathura](gallery/zathura.png)
-![dual](gallery/dual.png)
 ![fit](gallery/fit.png)
 
 ## Credits
