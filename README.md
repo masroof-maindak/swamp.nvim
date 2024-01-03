@@ -7,7 +7,7 @@
 
 ## Gallery
 
-![rofi] (gallery/forest.png)
+![rofi](gallery/forest.png)
 ![berry](gallery/berrywm.png)
 ![GTK](gallery/GTK.png)
 ![fit](gallery/fit.png)
