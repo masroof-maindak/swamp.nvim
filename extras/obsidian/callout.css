@@ -1,0 +1,54 @@
+body {
+    --red: 168, 45, 86;
+    --orange: 176, 103, 51;
+    --green: 122, 118, 83;
+    --yellow: 219, 147, 13;
+    --purple: 145, 80, 108;
+    --pink: 193, 102, 107;
+    
+    /* default, example */
+    --callout-default: var(--pink);
+    --callout-example: var(--pink);
+
+    /* tip, quote, info */
+    --callout-tip: var(--yellow);
+    --callout-important: var(--yellow);
+    --callout-quote: var(--yellow);
+    --callout-info: var(--yellow);
+
+    /* warning, question */
+    --callout-warning: var(--orange);
+    --callout-question: var(--orange);
+    
+    /* danger, failure, bug */
+    --callout-bug: var(--red);
+    --callout-fail: var(--red);    
+    --callout-error: var(--red);    
+    
+    /* done, todo, abstract */
+    --callout-success: var(--green);
+    --callout-todo: var(--green);
+    --callout-summary: var(--green);
+}
+
+body.markdown-preview-view .callout-icon>svg {
+    width: 40px;
+    height: 40px;
+}
+
+.callout>.callout-title>.callout-icon {
+    --icon-size: 40px;
+    opacity: 0.25;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.callout {
+    position: relative;
+}
+
+/* Blockquotes */
+.markdown-rendered blockquote {
+    padding: 5px 20px 20px 20px;
+}
