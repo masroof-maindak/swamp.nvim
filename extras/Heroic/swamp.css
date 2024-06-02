@@ -1,0 +1,36 @@
+body.swamp {
+    --accent: #b57614;
+    --accent-overlay: #db930d;
+    --navbar-accent: #ebe0bb;
+    --background: #211d13;
+    --body-background: #242015;
+    --background-darker: var(--body-background);
+    --current-background: var(--body-background);
+    --navbar-background: #3a3124;
+    --navbar-active-background: #242015;
+    --gradient-body-background: linear-gradient(
+        90deg, var(--background-darker) -32px,
+        var(--body-background) 64px,
+        var(--body-background) 100%
+    );
+    --input-background: #3A3124;
+    --modal-background: var(--body-background);
+    --modal-border: var(--body-background);
+    --success: #7a7653;
+    --success-hover: #736f4e;
+    --primary: #91506c;
+    --primary-hover: #80465f;
+    --danger: #96294d;
+    --danger-hover: #a82d56;
+    --anticheat-denied: #9d0006;
+    --anticheat-broken: #af3a03;
+    --anticheat-running: #508991;
+    --anticheat-supported: #736f4e;
+    --anticheat-planned: #b05d61;
+    --text-title: #ebe0bb;
+    --icons-background: #3A3124;
+    --action-icon: #ebe0bb;
+    --action-icon-hover: #c1666b;
+    --action-icon-active: #61a0a8;
+    --icon-disabled: #4d3f32;
+}
